@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ae9558f-c356-437d-ab83-8331e3ac32f6" name="Changes" comment="first_GUI">
-      <change afterPath="$PROJECT_DIR$/duplicate" afterDir="false" />
+    <list default="true" id="9ae9558f-c356-437d-ab83-8331e3ac32f6" name="Changes" comment="duplicate_str_appered">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +75,7 @@
       <workItem from="1717171482465" duration="2065000" />
       <workItem from="1717311043436" duration="608000" />
       <workItem from="1717336553810" duration="3670000" />
-      <workItem from="1717394430692" duration="1210000" />
+      <workItem from="1717394430692" duration="1978000" />
     </task>
     <task id="LOCAL-00001" summary="DMAS rule">
       <option name="closed" value="true" />
@@ -134,7 +133,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717340952277</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="duplicate_str_appered">
+      <option name="closed" value="true" />
+      <created>1717396217856</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1717396217856</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,7 +155,8 @@
     <MESSAGE value="immutabilty-of-str" />
     <MESSAGE value="first_loop" />
     <MESSAGE value="first_GUI" />
-    <option name="LAST_COMMIT_MESSAGE" value="first_GUI" />
+    <MESSAGE value="duplicate_str_appered" />
+    <option name="LAST_COMMIT_MESSAGE" value="duplicate_str_appered" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
