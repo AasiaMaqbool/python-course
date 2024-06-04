@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ae9558f-c356-437d-ab83-8331e3ac32f6" name="Changes" comment="functions_loop">
+    <list default="true" id="9ae9558f-c356-437d-ab83-8331e3ac32f6" name="Changes" comment="leacture_function">
+      <change afterPath="$PROJECT_DIR$/classes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +32,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/python-zero-to-master-course/python-course/functionUnderstanding.py",
+    "last_opened_file_path": "D:/python-zero-to-master-course/python-course/classes.py",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -40,7 +41,7 @@
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="functionUnderstanding" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="classes" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="python-course" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -53,7 +54,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/functionUnderstanding.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/classes.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -76,7 +77,7 @@
       <workItem from="1717311043436" duration="608000" />
       <workItem from="1717336553810" duration="3670000" />
       <workItem from="1717394430692" duration="3303000" />
-      <workItem from="1717483943835" duration="2534000" />
+      <workItem from="1717483943835" duration="3985000" />
     </task>
     <task id="LOCAL-00001" summary="DMAS rule">
       <option name="closed" value="true" />
@@ -158,7 +159,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717400224185</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="leacture_function">
+      <option name="closed" value="true" />
+      <created>1717488614689</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1717488614689</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,7 +183,8 @@
     <MESSAGE value="first_GUI" />
     <MESSAGE value="duplicate_str_appered" />
     <MESSAGE value="functions_loop" />
-    <option name="LAST_COMMIT_MESSAGE" value="functions_loop" />
+    <MESSAGE value="leacture_function" />
+    <option name="LAST_COMMIT_MESSAGE" value="leacture_function" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -190,7 +200,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/python_course$duplicate.coverage" NAME="function Coverage Results" MODIFIED="1717400185224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_course$main.coverage" NAME="variables Coverage Results" MODIFIED="1717151506025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python_course$functionUnderstanding.coverage" NAME="functionUnderstanding Coverage Results" MODIFIED="1717485771389" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_course$functionUnderstanding.coverage" NAME="classes Coverage Results" MODIFIED="1717490444978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_course$variables.coverage" NAME="immutabilty_example Coverage Results" MODIFIED="1717172623008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_course$immutabilty_example.coverage" NAME="GUI_practics Coverage Results" MODIFIED="1717340902296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
