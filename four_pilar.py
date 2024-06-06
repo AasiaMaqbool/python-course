@@ -1,16 +1,17 @@
-from abc import ABC,abstractmethod
-class company(ABC):
-    def work(self):
-       pass
-class Manager(company):
-    def work(self):
-        print("I assign work to mange team")
-class Employee(company):
-    def work(self):
-       print("I complete the work assign to me")
 
-R=Manager()
-R.work
+class Bird:
+    def fly(self):
+        return "Bird is flying"
 
-K=Employee()
-K.work()
+class Airplane:
+    def fly(self):
+        return "Airplane is flying"
+
+def let_it_fly(flyer):
+    print(flyer.fly())
+
+bird = Bird()
+airplane = Airplane()
+
+let_it_fly(bird)
+let_it_fly(airplane)
