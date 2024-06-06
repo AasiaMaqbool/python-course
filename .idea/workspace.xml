@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ae9558f-c356-437d-ab83-8331e3ac32f6" name="Changes" comment="summation_practics">
-      <change afterPath="$PROJECT_DIR$/methods_static.py" afterDir="false" />
+    <list default="true" id="9ae9558f-c356-437d-ab83-8331e3ac32f6" name="Changes" comment="methods_in_classes">
+      <change afterPath="$PROJECT_DIR$/four_pilar.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/methods_static.py" beforeDir="false" afterPath="$PROJECT_DIR$/methods_static.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +33,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/python-zero-to-master-course/python-course/methods_static.py",
+    "last_opened_file_path": "D:/python-zero-to-master-course/python-course/four_pilar.py",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -41,7 +42,7 @@
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="methods_static" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="four_pilar" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="python-course" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -54,7 +55,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/methods_static.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/four_pilar.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -78,7 +79,8 @@
       <workItem from="1717336553810" duration="3670000" />
       <workItem from="1717394430692" duration="3303000" />
       <workItem from="1717483943835" duration="9525000" />
-      <workItem from="1717580178123" duration="2359000" />
+      <workItem from="1717580178123" duration="5164000" />
+      <workItem from="1717678369942" duration="939000" />
     </task>
     <task id="LOCAL-00001" summary="DMAS rule">
       <option name="closed" value="true" />
@@ -192,7 +194,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717509415533</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="methods_in_classes">
+      <option name="closed" value="true" />
+      <created>1717586309582</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1717586309582</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,7 +222,8 @@
     <MESSAGE value="classes_players" />
     <MESSAGE value="class2_practics" />
     <MESSAGE value="summation_practics" />
-    <option name="LAST_COMMIT_MESSAGE" value="summation_practics" />
+    <MESSAGE value="methods_in_classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="methods_in_classes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -226,11 +237,12 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/python_course$four_pilar.coverage" NAME="four_pilar Coverage Results" MODIFIED="1717679334172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_course$duplicate.coverage" NAME="function Coverage Results" MODIFIED="1717400185224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_course$main.coverage" NAME="variables Coverage Results" MODIFIED="1717151506025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_course$functionUnderstanding.coverage" NAME="practics Coverage Results" MODIFIED="1717509386239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_course$variables.coverage" NAME="immutabilty_example Coverage Results" MODIFIED="1717172623008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_course$immutabilty_example.coverage" NAME="GUI_practics Coverage Results" MODIFIED="1717340902296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python_course$methods_static.coverage" NAME="methods_static Coverage Results" MODIFIED="1717586172398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_course$methods_static.coverage" NAME="methods_static Coverage Results" MODIFIED="1717588026464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

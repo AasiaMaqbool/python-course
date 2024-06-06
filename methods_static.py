@@ -21,7 +21,6 @@ class Teams:
         print('membership:', Teams.membership)
         print('salary_increment: 2000')  # Just an example print statement
 
-
 # Example usage
 team_member = Teams('John Doe', 123, 6)  # Assuming employee work year is greater than 5
 team_member.salary()
