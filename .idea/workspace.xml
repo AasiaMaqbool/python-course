@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ae9558f-c356-437d-ab83-8331e3ac32f6" name="Changes" comment="Abstactration">
+    <list default="true" id="9ae9558f-c356-437d-ab83-8331e3ac32f6" name="Changes" comment="polymorphism">
+      <change afterPath="$PROJECT_DIR$/dunder_method.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/four_pilar.py" beforeDir="false" afterPath="$PROJECT_DIR$/four_pilar.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +32,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/python-zero-to-master-course/python-course/four_pilar.py",
+    "last_opened_file_path": "D:/python-zero-to-master-course/python-course/dunder_method.py",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -41,7 +41,7 @@
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="four_pilar" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="dunder_method" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="python-course" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -54,7 +54,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/four_pilar.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dunder_method.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -79,7 +79,8 @@
       <workItem from="1717394430692" duration="3303000" />
       <workItem from="1717483943835" duration="9525000" />
       <workItem from="1717580178123" duration="5164000" />
-      <workItem from="1717678369942" duration="4786000" />
+      <workItem from="1717678369942" duration="5092000" />
+      <workItem from="1717739499430" duration="2611000" />
     </task>
     <task id="LOCAL-00001" summary="DMAS rule">
       <option name="closed" value="true" />
@@ -225,7 +226,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717682539874</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="polymorphism">
+      <option name="closed" value="true" />
+      <created>1717683513379</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1717683513379</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,7 +258,8 @@
     <MESSAGE value="Encapsulation" />
     <MESSAGE value="Inheritance" />
     <MESSAGE value="Abstactration" />
-    <option name="LAST_COMMIT_MESSAGE" value="Abstactration" />
+    <MESSAGE value="polymorphism" />
+    <option name="LAST_COMMIT_MESSAGE" value="polymorphism" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -263,12 +273,13 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/python_course$four_pilar.coverage" NAME="four_pilar Coverage Results" MODIFIED="1717683203628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_course$four_pilar.coverage" NAME="four_pilar Coverage Results" MODIFIED="1717683459447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_course$duplicate.coverage" NAME="function Coverage Results" MODIFIED="1717400185224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_course$main.coverage" NAME="variables Coverage Results" MODIFIED="1717151506025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_course$functionUnderstanding.coverage" NAME="practics Coverage Results" MODIFIED="1717509386239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_course$variables.coverage" NAME="immutabilty_example Coverage Results" MODIFIED="1717172623008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_course$immutabilty_example.coverage" NAME="GUI_practics Coverage Results" MODIFIED="1717340902296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_course$methods_static.coverage" NAME="methods_static Coverage Results" MODIFIED="1717588026464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_course$dunder_method.coverage" NAME="dunder_method Coverage Results" MODIFIED="1717742902631" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
