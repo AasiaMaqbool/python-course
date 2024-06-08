@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ae9558f-c356-437d-ab83-8331e3ac32f6" name="Changes" comment="map">
+    <list default="true" id="9ae9558f-c356-437d-ab83-8331e3ac32f6" name="Changes" comment="return">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/map.py" beforeDir="false" afterPath="$PROJECT_DIR$/map.py" afterDir="false" />
     </list>
@@ -82,7 +82,7 @@
       <workItem from="1717678369942" duration="5092000" />
       <workItem from="1717739499430" duration="3776000" />
       <workItem from="1717766129296" duration="1647000" />
-      <workItem from="1717822787648" duration="907000" />
+      <workItem from="1717822787648" duration="3740000" />
     </task>
     <task id="LOCAL-00001" summary="DMAS rule">
       <option name="closed" value="true" />
@@ -260,7 +260,31 @@
       <option name="project" value="LOCAL" />
       <updated>1717767794045</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="filter">
+      <option name="closed" value="true" />
+      <created>1717825038877</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1717825038877</updated>
+    </task>
+    <task id="LOCAL-00024" summary="zip">
+      <option name="closed" value="true" />
+      <created>1717825141834</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1717825141834</updated>
+    </task>
+    <task id="LOCAL-00025" summary="return">
+      <option name="closed" value="true" />
+      <created>1717825416647</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1717825416647</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,7 +312,10 @@
     <MESSAGE value="dunder_function" />
     <MESSAGE value="pure-fuction" />
     <MESSAGE value="map" />
-    <option name="LAST_COMMIT_MESSAGE" value="map" />
+    <MESSAGE value="filter" />
+    <MESSAGE value="zip" />
+    <MESSAGE value="return" />
+    <option name="LAST_COMMIT_MESSAGE" value="return" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -306,7 +333,7 @@
     <SUITE FILE_PATH="coverage/python_course$duplicate.coverage" NAME="function Coverage Results" MODIFIED="1717400185224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_course$main.coverage" NAME="variables Coverage Results" MODIFIED="1717151506025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_course$functionUnderstanding.coverage" NAME="practics Coverage Results" MODIFIED="1717509386239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/python_course$map.coverage" NAME="map Coverage Results" MODIFIED="1717825019860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python_course$map.coverage" NAME="map Coverage Results" MODIFIED="1717829063545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_course$variables.coverage" NAME="immutabilty_example Coverage Results" MODIFIED="1717172623008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_course$immutabilty_example.coverage" NAME="GUI_practics Coverage Results" MODIFIED="1717340902296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_course$methods_static.coverage" NAME="methods_static Coverage Results" MODIFIED="1717588026464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
