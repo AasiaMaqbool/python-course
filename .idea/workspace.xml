@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ae9558f-c356-437d-ab83-8331e3ac32f6" name="Changes" comment="exersice_comp_in_duplicates">
-      <change afterPath="$PROJECT_DIR$/generator.py" afterDir="false" />
+    <list default="true" id="9ae9558f-c356-437d-ab83-8331e3ac32f6" name="Changes" comment="generator">
+      <change afterPath="$PROJECT_DIR$/modules.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +32,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/python-zero-to-master-course/python-course/generator.py",
+    "last_opened_file_path": "D:/python-zero-to-master-course/python-course/functionUnderstanding.py",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -41,7 +41,7 @@
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="generator" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="functionUnderstanding" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="python-course" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -54,7 +54,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/generator.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/functionUnderstanding.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -83,7 +83,7 @@
       <workItem from="1717739499430" duration="3776000" />
       <workItem from="1717766129296" duration="1647000" />
       <workItem from="1717822787648" duration="6355000" />
-      <workItem from="1718002684111" duration="455000" />
+      <workItem from="1718002684111" duration="1192000" />
     </task>
     <task id="LOCAL-00001" summary="DMAS rule">
       <option name="closed" value="true" />
@@ -317,14 +317,21 @@
       <option name="project" value="LOCAL" />
       <updated>1717831089491</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="generator">
+      <option name="closed" value="true" />
+      <created>1718003185272</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1718003185272</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="practicing of binary operation" />
     <MESSAGE value="immutabilty-of-str" />
     <MESSAGE value="first_loop" />
     <MESSAGE value="first_GUI" />
@@ -349,7 +356,8 @@
     <MESSAGE value="comprenhsion_in_python" />
     <MESSAGE value="comprehsion_in_dict" />
     <MESSAGE value="exersice_comp_in_duplicates" />
-    <option name="LAST_COMMIT_MESSAGE" value="exersice_comp_in_duplicates" />
+    <MESSAGE value="generator" />
+    <option name="LAST_COMMIT_MESSAGE" value="generator" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
