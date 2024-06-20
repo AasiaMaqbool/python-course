@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ae9558f-c356-437d-ab83-8331e3ac32f6" name="Changes" comment="function_understanding">
-      <change afterPath="$PROJECT_DIR$/shopping_cart/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopping_cart/more_shopping/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopping_cart/shopping.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shopping_cart/ulatity.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules.py" afterDir="false" />
+    <list default="true" id="9ae9558f-c356-437d-ab83-8331e3ac32f6" name="Changes" comment="practise here to creation function">
+      <change afterPath="$PROJECT_DIR$/external-libraries/random_module.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +83,7 @@
       <workItem from="1717766129296" duration="1647000" />
       <workItem from="1717822787648" duration="6355000" />
       <workItem from="1718002684111" duration="4938000" />
+      <workItem from="1718177454817" duration="705000" />
     </task>
     <task id="LOCAL-00001" summary="DMAS rule">
       <option name="closed" value="true" />
@@ -337,14 +333,32 @@
       <option name="project" value="LOCAL" />
       <updated>1718006753100</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="practise here to creation function">
+      <option name="closed" value="true" />
+      <created>1718177528519</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1718177528519</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="first_loop" />
     <MESSAGE value="first_GUI" />
     <MESSAGE value="duplicate_str_appered" />
     <MESSAGE value="functions_loop" />
@@ -369,7 +383,8 @@
     <MESSAGE value="exersice_comp_in_duplicates" />
     <MESSAGE value="generator" />
     <MESSAGE value="function_understanding" />
-    <option name="LAST_COMMIT_MESSAGE" value="function_understanding" />
+    <MESSAGE value="practise here to creation function" />
+    <option name="LAST_COMMIT_MESSAGE" value="practise here to creation function" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
