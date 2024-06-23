@@ -1,7 +1,12 @@
-my_file=open('D:/test.txt')
-
-print(my_file)
-print(my_file.read())
-my_file.seek(0)
-print(my_file.readlines())
-my_file.close()
+from translate import Translator
+translator=Translator(to_lang="ja")
+try:
+    with open('./test.txt', mode='r') as my_file:
+      text=my_file.read()
+      translation=translator.translate(text)
+      with open('./test-ja.txt',mode='w') as my_file2:
+        my_file.write()
+except FileNotFoundError as e:
+    print('check your file path silly!')
+   # text=my_file.write(':(')
+    #print(text)
