@@ -1,5 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
+res=requests.get('https://news.ycombinator.com/newest')
+soup=BeautifulSoup(res.text,'html.parser')
+print(soup.find(id='40854716'))
 
-res = requests.get('https://news.ycombinator.com/')
-print(res.text)
