@@ -1,6 +1,21 @@
 import requests
 from bs4 import BeautifulSoup
-res=requests.get('https://news.ycombinator.com/newest')
+res=requests.get('https://news.ycombinator.com/')
 soup=BeautifulSoup(res.text,'html.parser')
-print(soup.find(id='40854716'))
+links = soup.select('span.titleline > a');
+votes = soup.select('.score')
+print(votes)
+
+def create_custom_hn(links,votes):
+  hn = []
+  for idx,item in enumerate(links):
+      title= links[idx].getText()
+      herf=links[idx].get('herf', None)
+      points=int(votes[idx].getText().replace('points' , ' '))
+      # print(points)
+      hn.append({'title':title,'link': herf})
+      return hn
+
+print(create_custom_hn(links,votes))
+
 
