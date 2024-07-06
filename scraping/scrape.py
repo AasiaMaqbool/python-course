@@ -1,5 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
+import pprint
 res=requests.get('https://news.ycombinator.com/')
 soup=BeautifulSoup(res.text,'html.parser')
 links = soup.select('span.titleline > a');
@@ -13,9 +14,10 @@ def create_custom_hn(links,subtext):
       vote=subtext[idx].select('.score')
       if len(vote):
          points=int(vote[0].getText().replace('points', ''))
-         hn.append({'title':title,'link': herf,'votes': points})
+         if points > 99:
+           hn.append({'title':title,'link': herf,'votes': points})
       return hn
 
-print(create_custom_hn(links,subtext))
+pprint.pprint(create_custom_hn(links,subtext))
 
 
